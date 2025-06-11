@@ -1,8 +1,0 @@
-git clone https://github.com/jaybyrd-band/jaybyrd-band.github.io
-cd jaybyrd-band.github.io
-git checkout --orphan temp_branch
-git add -A
-git commit -am "Clean slate"
-git branch -D gh-pages
-git branch -m gh-pages
-git push --force origin gh-pages
